@@ -1,0 +1,65 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Robot Framework
+results/
+*.log
+*.xml
+*.html
+
+# Screenshots (keep directory but ignore files)
+results/screenshots/*.png
+results/screenshots/*.jpg
+results/screenshots/*.jpeg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test data files
+test_data/resume.txt
+test_data/*.pdf
+test_data/*.doc
+test_data/*.docx
+
+# Browser drivers (if downloaded)
+chromedriver*
+geckodriver*
+msedgedriver* 
